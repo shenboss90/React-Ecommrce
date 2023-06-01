@@ -52,8 +52,8 @@
 
 }
 @media screen and (max-width:400px){
-    .div2{
-        display: none;
+    .div{
+        width: 60%;
     }
     
     }

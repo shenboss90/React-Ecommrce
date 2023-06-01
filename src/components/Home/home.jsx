@@ -85,7 +85,6 @@ function Home() {
     </Navbar>
     <div>
       <Routes>
-      <Route path="/" element = {<FrontPage/>}/>  
       <Route path="/FrontPage" element = {<FrontPage productResult={products}  />}/>  
         <Route path="/Products" element = {<Products/>}/>
        

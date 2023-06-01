@@ -131,11 +131,11 @@ const FrontPage = ({productResult}) => {
         />
       </div>
 
-      <div style={{}} className="div2">
+      <div  className="div2">
         <h1 className="mt-5" style={{textAlign:'center'}}>Reliable End to End Verification Services</h1>
         <div className="cards">
 
-          <div className="card m-5"  style={{ width: "" ,textAlign:'center' }}>
+          <div className="card m-5"  style={{ textAlign:'center' }}>
             <img src="\src\components\images\graphic2.jpg" className="card-img-top" alt="..." style={{height:'250px'}} />
             <div className="card-body mt-4">
               <h5 className="card-title">ID VERIFICATION</h5>
@@ -147,7 +147,7 @@ const FrontPage = ({productResult}) => {
               </a>
             </div>
             </div>
-            <div className="card m-5 " style={{ width: "" ,textAlign:'center' }}>
+            <div className="card m-5 " style={{textAlign:'center' }}>
               <img src="\src\components\images\grahic1.jpeg" className="card-img-top" alt="..." style={{height:'250px'}}/>
               <div className="card-body mt-4">
                 <h5 className="card-title">ADDRESS VERIFICATION</h5>
@@ -159,7 +159,7 @@ const FrontPage = ({productResult}) => {
                 </a>
               </div>
             </div>
-            <div className="card m-5" style={{ width: "", textAlign:'center' }}>
+            <div className="card m-5" style={{ textAlign:'center' }}>
               <img src="\src\components\images\graphic3.jpg" className="card-img-top" alt="..." style={{height:'250px'}} />
               <div className="card-body mt-4">
                 <h5 className="card-title">FINANCIAL VERIFICATION</h5>
