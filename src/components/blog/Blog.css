@@ -1,0 +1,39 @@
+form label{
+    margin-top: 15px;
+    color: rgb(187, 187, 80);
+}
+input::placeholder,
+textarea::placeholder{
+    font-weight: bold;
+    color: black;
+}
+
+#contact{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: column; 
+
+}
+form input{
+    height: 30px;
+    width: 200px;
+    border: none;
+    border-bottom:1px solid black
+
+}
+form input:focus,
+textarea:focus{
+    outline: none;
+}
+form button{
+    margin-top: 20px;
+    width: 140px;
+    height:40px ;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+
+}

@@ -1,0 +1,23 @@
+
+
+
+.centerd{
+    text-align: center;
+    color:white;
+    align-items: center;
+    border: 1px solid none; 
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin: 50px;
+    border-radius: 20px;
+   
+  }
+
+  .details h2{
+    font-size: 30px;
+    color: black;
+  }
+  .details h4{
+    color: black;
+  }

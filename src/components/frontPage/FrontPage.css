@@ -1,0 +1,61 @@
+.heading h2{
+    font-size: 70px;
+    color: green;
+    text-align: center;
+}
+
+.main-word{
+    margin-top: 25px;
+}
+.but{
+    margin: 10px;
+}
+.main-button1{
+    margin: 10px;
+    padding: 15px;
+    background-color: green;
+    border-radius: 30%;
+    border: 2px solid rgb(109, 207, 109);
+    color: white;
+    font-weight: 300;
+}
+.main-button2{
+    margin: 10px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30%;
+    border: 2px solid rgb(109, 207, 109);
+}
+.logo-container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2{
+    background-color: rgb(253, 231, 182);
+}
+.card{
+    background-color: rgb(243, 235, 225);
+    width: 40%;
+}
+
+
+@media all and (max-width:560px){
+.carousel{
+    display: none;
+}
+
+
+}
+@media screen and (max-width:400px){
+    .div2{
+        display: none;
+    }
+    
+    }
+
+    
